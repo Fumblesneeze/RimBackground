@@ -32,15 +32,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="%24HugsLibChecker">
-      <HintPath>Source-DLLs\$HugsLibChecker.dll</HintPath>
+    <Reference Include="0Harmony">
+      <HintPath>Source-DLLs\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>Source-DLLs\Assembly-CSharp.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="HugsLib">
-      <HintPath>Source-DLLs\HugsLib.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />

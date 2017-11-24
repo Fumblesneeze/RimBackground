@@ -1,19 +1,19 @@
-﻿using HugsLib;
+﻿using Harmony;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using Verse;
 
 namespace AnimatedBG
 {
-    public class Mod : ModBase
+    public class Mod : Verse.Mod
     {
-
-        public override string ModIdentifier { get; } = "AnimatedBG";
-
-        public override void Initialize()
+        public Mod(ModContentPack content) : base(content)
         {
+            var harmony = HarmonyInstance.Create("Fumblesneeze.AnimatedBG");
+            harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
 
         static List<ModMetaData> ModList { get; } = (List<ModMetaData>)ModLister.AllInstalledMods;

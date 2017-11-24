@@ -1,7 +1,7 @@
 {
   "id": "Background",
   "name": "Animated Background",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "targetGameVersion": "0.18.0",
   "authors": "Fumblesneeze",
   "description": "Replaces the original Rimworld menu background with an animation.\r\n\r\nThe video was made by The Dee (https://www.youtube.com/watch?v=1YOiQ5Vrqe4), bug him for a better version!\r\n\r\nThis is a rather big download so be patient!",
@@ -10,7 +10,7 @@
   "issues": "https://github.com/Fumblesneeze/RimBackground/issues",
   "category": "UI",
   "source": {
-    "github": "https://github.com/Fumblesneeze/RimBackground/releases/download/v0.1/Background.zip",
+    "github": "https://github.com/Fumblesneeze/RimBackground/releases/download/v0.1.0/Background.zip",
     "steam": "869600389"
   },
   "relationships": {},

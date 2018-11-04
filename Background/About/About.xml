@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Animated Background</name>
-  <targetVersion>0.18.0</targetVersion>
+  <targetVersion>1.0.0</targetVersion>
   <author>Fumblesneeze</author>
   <url>https://github.com/Fumblesneeze/RimBackground</url>
   <description>Replaces the original Rimworld menu background with an animation.
